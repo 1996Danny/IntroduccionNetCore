@@ -35,11 +35,43 @@
             //var suma = valor1 - valor2;
             //var suma = valor1 * valor2;
             //var suma = valor1 / valor2;
+            //var suma = valor1 % valor2; //Resto
             Console.WriteLine("El resultado suma {0} y {1} es {2}",valor1, valor2, suma);
+            
             //============================OperadoresAsignacion============================================================
-            valor1 += valor2; //incremento
-            //valor1 -= valor2; //decremento
+            valor1 += valor2; //incremento y asignación
+            //valor1 -= valor2; //decremento y asignación
+            //valor1 *= valor2; //multiplicación y asignación
+            //valor1 /= valor2; //división y asignación
+            //valor1 %= valor2; //resto y asignación
             Console.WriteLine("Valor asignado {0}", valor1);
+
+            //=============================OperadoresComparaciónTipo-Relacionales=======================================
+            //var data = valor1 > valor2;
+            //var data = valor1 < valor2;
+            //var data = valor1 <= valor2;
+            var data = valor1 >= valor2;
+            Console.WriteLine("El primer valor {1} es menor al segundo valor {2} -> {0}", data, valor1, valor2);
+
+            //===========================OperadoresIgualdad======================================================
+            var datos = valor1 == valor2; //igualdad
+            //var datos = valor1 != valor2; // distinto
+            Console.WriteLine("{0} es igual a {1} : {2}", valor1, valor2, datos);
+
+            //==========================OperadoresLogicos========================================================
+            // Operador de negación lógico !
+            // Operador AND lógico &
+            // Operador OR exclusivo lógico ^
+            // Operador OR lógico |
+            // Operador AND lógico condicional &&
+            // Operador OR lógico condicional ||
+
+            //==========================EstructurasCondicionales================================================
+
+            if (1 > 0 && 10 == 10) //if evalua si la (condición) es verdadera o falsa
+            {
+                Console.WriteLine("Ejecutando el bloque dentro de if, porque es verdadera la condicion");
+            }
         }
     }
 }
