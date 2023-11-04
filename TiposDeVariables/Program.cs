@@ -37,7 +37,9 @@
             //var suma = valor1 / valor2;
             Console.WriteLine("El resultado suma {0} y {1} es {2}",valor1, valor2, suma);
             //============================OperadoresAsignacion============================================================
-
+            valor1 += valor2; //incremento
+            //valor1 -= valor2; //decremento
+            Console.WriteLine("Valor asignado {0}", valor1);
         }
     }
 }
