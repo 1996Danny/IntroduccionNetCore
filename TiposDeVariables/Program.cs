@@ -70,8 +70,59 @@
 
             if (1 > 0 && 10 == 10) //if evalua si la (condición) es verdadera o falsa
             {
+                if (true) // condición anidada / if anidado
+                {
+                    Console.WriteLine("Si la condicion es true, ejecuta el bloque");
+                }
+                else
+                {
+                    Console.WriteLine("si es falso se ejecuta este else");
+                }
                 Console.WriteLine("Ejecutando el bloque dentro de if, porque es verdadera la condicion");
             }
+            else
+            {
+                Console.WriteLine("Sino se ejecuta el bloque else, porque la condicion es falsa");
+            }
+            // práctica de condicionales
+            string FirstName = "Dany";
+            //string FirstName = "Pedro";
+            if (FirstName == "Dany")
+            {
+                Console.WriteLine("Buenos días {0}", FirstName);
+            }
+            else
+            {
+                Console.WriteLine("Buenos días {0}", FirstName);
+            }
+            // Operador Condicional(simplicar la estructura if"simple")
+            string Saludar = "Hola";
+            FirstName = 1==3 ? "Dany" : "Pedro"; // variableAEstudiar = condicion(ToF) ? 1ExpresionAComparar : 2ExpresionAComparar
+            Console.WriteLine(Saludar + " " + FirstName);
+
+            //=============================================Arrays-Arreglos===============================================
+            //array de tipo string
+            string[] cadenas = new string[5]; // tipoDato[] nombreArray = new tipoDato[cantidadElementos]
+            //para almacenar datos dentro de nuestro array
+            cadenas[0] = "Posicion 1"; // nombreArray[posicionElemento] = Elemento  "Los indices comienzan en 0"
+            cadenas[4] = "posicion 5";
+            Console.WriteLine(cadenas[0]+" "+ cadenas[4]);
+            Console.WriteLine(cadenas[3]);
+            string[] cadena2 = { "Hola", "Buenos", "Días" }; // con llaves podemos cargar los datos en el Array
+            Console.WriteLine(cadena2);
+            Console.WriteLine("El array tiene {0} elementos", cadenas.Length);
+            
+            //array de tipo int
+            int[] edad = new int[2];
+            edad[0] = 20;
+            edad[1] = 10;
+            //edad[2] = 50;
+            Console.WriteLine(edad[1]);
+
+            // Arrays multidimensionales
+            double[,] Amulti = new double[2,2] { {2, 3.5 }, {4.5, 0.9 } }; //con la [filas,columnas] indicamos la creación de efilas y columnas y entre llaves indicamos los valores
+            Console.WriteLine(Amulti[0,1]);
+
         }
     }
 }
