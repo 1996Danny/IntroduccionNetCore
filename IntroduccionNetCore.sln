@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaNetCore", "TiposDeV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciclos", "Ciclos\Ciclos.csproj", "{F80D7826-B005-4983-8DE4-F78A1F7E3439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianguloApp", "TrianguloApp\TrianguloApp.csproj", "{ED30A878-4FF4-481A-A27E-F75407EF768C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrianguloApp", "TrianguloApp\TrianguloApp.csproj", "{ED30A878-4FF4-481A-A27E-F75407EF768C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraNotas", "CalculadoraNotas\CalculadoraNotas.csproj", "{84042D75-7A83-4744-B4F0-F62FEC042ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{ED30A878-4FF4-481A-A27E-F75407EF768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED30A878-4FF4-481A-A27E-F75407EF768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED30A878-4FF4-481A-A27E-F75407EF768C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84042D75-7A83-4744-B4F0-F62FEC042ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84042D75-7A83-4744-B4F0-F62FEC042ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84042D75-7A83-4744-B4F0-F62FEC042ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84042D75-7A83-4744-B4F0-F62FEC042ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
